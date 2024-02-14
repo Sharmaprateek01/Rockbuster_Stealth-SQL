@@ -1,4 +1,4 @@
-# SQL query to find the top 10 countries for Rockbuster in terms of customer numbers:
+# Here is a SQL query to find the top 10 countries for Rockbuster in terms of customer numbers:
 
 SELECT D. country,
 COUNT (customer_id) As total_customers
@@ -10,7 +10,7 @@ GROUP BY D. country
 ORDER BY total_customers DESC
 LIMIT 10;
 
-# SQL query to find the Top 10 cities that fall within the top 10 countries identified above:
+# Here is a SQL query to find the Top 10 cities that fall within the top 10 countries identified above:
 
 SELECT D. country,
 C.city AS city_name,
@@ -25,8 +25,7 @@ GROUP BY D. country, C.city
 ORDER BY total_customers DESC
 LIMIT 10;
 
-
-#SQL query to find the Top 5 customers from the top 10 cities above who’ve paid the highest total amounts:
+# Here is a SQL query to find the Top 5 customers from the top 10 cities above who’ve paid the highest total amounts:
 
 SELECT A. first_name, A. last_name,
 C.city,
