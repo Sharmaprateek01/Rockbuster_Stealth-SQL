@@ -14,22 +14,37 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 # Data
 Rockbuster [Data Set](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) was fabricated and provided by Career Foundry in the project brief for analysis. It includes the following information: 
 ## Fact Table
-•	Payment 
+•	Payment
+
 •	Rental
+
 ## Dimension Table
-•	Actor 
+•	Actor
+
 •	Address
-•	Category 
+
+•	Category
+
 •	City
-•	Country 
+
+•	Country
+
 •	Customer
-•	Film 
-•	 Film_actor
-•	Film_category 
+
+•	Film
+
+•	Film_actor
+
+•	Film_category
+
 •	Inventory
-•	Language 
+
+•	Language
+
 •	Staff
+
 •	Store
+
 # Tools
 Data was analyzed using RDMS(Relational Database Management System) and PostgreSQL.
 # Visualizations
