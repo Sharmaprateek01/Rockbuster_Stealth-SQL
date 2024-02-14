@@ -13,12 +13,12 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 
 # Data
 Rockbuster [Data Set](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) was fabricated and provided by Career Foundry in the project brief for analysis. It includes the following information: 
-## Fact Table
+**_Fact Table_**
 •	Payment
 
 •	Rental
 
-## Dimension Table
+**_Dimension Table_**
 •	Actor
 
 •	Address
