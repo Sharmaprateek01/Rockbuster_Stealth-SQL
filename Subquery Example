@@ -40,3 +40,4 @@ LIMIT 5) AS top_5_Customers ON A. customer_id = top_5_customers.customer_id
 GROUP BY D.country
 ORDER BY all_customer_count DESC
 LIMIT 5;
+
