@@ -53,3 +53,4 @@ Data was analyzed using RDMS(Relational Database Management System) and PostgreS
 # Visualizations
 Visualiztions were created in Tableau Public and the link to the storyboard can be here:
 [Rockbuster Visuals](https://coach-courses-us.s3.amazonaws.com/exercises/1054/61573/1dff3e7379ab175a2219e257240f212c/Task-3.10--Presentation-_PS.pdf)
+
