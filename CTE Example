@@ -40,3 +40,4 @@ INNER JOIN address B ON A.address_id= B.address_id INNER JOIN city C ON B.city_i
 INNER JOIN country D ON C.country_id= D.country_id LEFT JOIN top5_customers_cte ON A.customer_id=top5_customers_cte.customer_id
 GROUP BY D.country
 ORDER BY all_customer_count DESC LIMIT 5;
+
